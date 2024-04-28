@@ -18,12 +18,12 @@ The following are required :
 - tensorflow-gpu 1.13.0 (works with CPU version as well but with a much higher inference time)
 - opencv3
 - slim
-- slidingwindow - (https://github.com/adamrehn/slidingwindow)
+- slidingwindow
 
 ### Compiling Locally
 
 ```bash
-$ git clone https://github.com/dronefreak/human-action-classification.git
+$ git clone https://github.com/Harsha1309/Human_Action_Recognition.git
 $ cd human-action-classification
 ```
 Please check the dependency tree before executing the `pip` install command.
@@ -107,11 +107,6 @@ $ python setup.py build_ext --inplace
 
 [2] https://github.com/DenisTome/Lifting-from-the-Deep-release
 
-### Mobilenet
-
-[1] Original Paper : https://arxiv.org/abs/1704.04861
-
-[2] Pretrained model (Pose estimation) : https://github.com/tensorflow/models/blob/master/slim/nets/mobilenet_v1.md
 
 ### Dataset
 [1] Stanford 40 : http://vision.stanford.edu/Datasets/40actions.html
@@ -120,11 +115,6 @@ $ python setup.py build_ext --inplace
 
 [1] Tensorpack : https://github.com/ppwwyyxx/tensorpack
 
-### Tensorflow Tips
-
-[1] Freeze graph : https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/tools/freeze_graph.py
-
-[2] Optimize graph : https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2
 
 
 
